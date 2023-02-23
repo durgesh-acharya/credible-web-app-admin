@@ -1,4 +1,4 @@
-// @dart=2.9
+
 import 'dart:convert';
 import 'dart:io';
 
@@ -279,7 +279,7 @@ class _QrState extends State<Qr> {
                   groupValue: qrstatus, 
                   onChanged: (value){
                     setState(() {
-                      qrstatus = value;
+                      qrstatus = value!;
                     }); //selected value
                   }
                 ),
@@ -294,7 +294,7 @@ class _QrState extends State<Qr> {
                   groupValue: qrstatus, 
                   onChanged: (value){
                     setState(() {
-                      qrstatus = value;
+                      qrstatus = value!;
                     }); //selected value
                   }
                 ),
@@ -308,7 +308,7 @@ class _QrState extends State<Qr> {
                   groupValue: qrstatus, 
                   onChanged: (value){
                     setState(() {
-                      qrstatus = value;
+                      qrstatus = value!;
                     }); //selected value
                   }
                 ),

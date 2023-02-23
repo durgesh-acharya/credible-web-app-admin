@@ -1,4 +1,4 @@
-// @dart=2.9
+
 import 'package:credible_steel_admin/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

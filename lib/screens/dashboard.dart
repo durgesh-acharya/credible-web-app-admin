@@ -1,4 +1,4 @@
-// @dart=2.9
+
 import 'package:credible_steel_admin/screens/categoryscreen.dart';
 import 'package:credible_steel_admin/screens/qr.dart';
 import 'package:credible_steel_admin/screens/reedemscreen.dart';

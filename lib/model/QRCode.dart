@@ -1,7 +1,7 @@
 // To parse this JSON data, do
 //
 //     final qrCode = qrCodeFromJson(jsonString);
-// @dart=2.9
+
 import 'dart:convert';
 
 QrCode qrCodeFromJson(String str) => QrCode.fromJson(json.decode(str));
@@ -10,13 +10,13 @@ String qrCodeToJson(QrCode data) => json.encode(data.toJson());
 
 class QrCode {
     QrCode({
-         this.qrId,
-         this.qrUnique,
-         this.qrUse,
-         this.qrReedemed,
-         this.qrRupees,
-         this.qrReedemedby,
-         this.qrReedemstatus,
+        required this.qrId,
+        required this.qrUnique,
+        required this.qrUse,
+        required this.qrReedemed,
+        required this.qrRupees,
+        required this.qrReedemedby,
+        required this.qrReedemstatus,
     });
 
     int qrId;

@@ -2,7 +2,7 @@
 // To parse this JSON data, do
 //
 //     final subCate = subCateFromJson(jsonString);
-// @dart=2.9
+
 import 'dart:convert';
 
 SubCate subCateFromJson(String str) => SubCate.fromJson(json.decode(str));
@@ -11,12 +11,12 @@ String subCateToJson(SubCate data) => json.encode(data.toJson());
 
 class SubCate {
     SubCate({
-         this.subcateId,
-         this.subcateName,
-        this.subcateDesctiption,
-         this.subcateUrl,
-         this.subcateCate,
-         this.subcateStatus,
+        required this.subcateId,
+        required this.subcateName,
+        required this.subcateDesctiption,
+        required this.subcateUrl,
+        required this.subcateCate,
+        required this.subcateStatus,
     });
 
     int subcateId;
